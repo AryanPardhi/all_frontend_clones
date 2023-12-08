@@ -1,0 +1,736 @@
+@font-face {
+    font-family: yubo;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
+@font-face {
+    font-family: yubo-regular;
+    src: url(./RightGrotesk-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    height:100%;
+    width: 100%;
+}
+
+#page1{
+    width: 100%;
+    height: 745px;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+    /* position: relative; */
+}
+
+#nav-bar{z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-icon{
+    cursor: pointer;
+    margin-left: 50px;
+    width: 25px;
+    position: relative;
+    height: 20px;
+}
+#line1{
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 50px;
+    
+}
+#line2{
+    border-radius: 50px;
+    bottom: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 5px;
+}
+
+#nav-bar>img{
+    cursor: pointer;
+    height: 170px;
+    width: 170px;   
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    padding: 0px 15px;
+    margin-right: 40px;
+}
+
+#icon i{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+#str{
+    background-color: #fff;
+    height: 30px;
+    width: 1px;
+}
+
+#icon>img{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+#text>h1{
+    text-align: center;
+    color: rgb(255,227,10);
+    font-family: yubo;
+    font-size: 170px;
+    line-height: 150px;
+}
+
+#page2{
+    height: 120%;
+    width: 100%;
+    background-color: rgb(255,227,10);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    position: relative;
+}   
+
+#page2-left-side{
+    margin-left: 200px;
+    margin-top: 110px;
+    position: relative;
+}
+#page2-left-side>h1{
+    font-size: 150px;
+    font-family: yubo;
+    line-height: 125px;
+}
+#page2-left-side #button{ 
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+#page2-right-side{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+#page2-right-side #phone{
+    margin-top: 140px;
+}
+
+.items{
+    position: absolute;
+}
+#join-chat{
+    top: 50%;
+    left:45%;
+}
+#lit{
+    top: 310px;
+    right: 180px;
+}
+#hey{
+    top: 70%;
+    left: 45%;
+}
+#emoji{
+    height: 230px;
+    width: 230px;
+    top: 75%;
+    right: 110px;
+}
+#yubo{
+    height: 120px;
+    width: 200px;
+    right: 80px;
+    top: 65%;
+}
+#page3{
+    height:285%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-color: rgb(255,227,10);
+    background-size:cover;
+}
+
+#page3-subcontain{
+    margin-top: 20px;
+    margin: 0 10.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#page3-subcontain #page3-1{
+    margin-right: 130px;
+    margin-top: 280px;
+
+}
+
+#page3-subcontain #page3-1>h1{
+    font-family: yubo;
+    font-size: 140px;
+    line-height: 130px;
+    color:rgb(255,227,10);
+
+}
+#page3-subcontain #page3-2{
+    width: 350px;
+    margin-top: 320px;
+    position: relative;
+}
+
+#page3-subcontain #page3-2>p{
+    color: white;
+    font-family: yubo-regular;
+    font-size: 1.8rem;
+}
+#page3-subcontain #page3-2>a{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    top: 200px;
+    color: black;
+    background: rgb(255,227,10);
+    text-decoration: none;
+    font-family: yubo-regular;
+    border-radius: 50px;
+    padding: 20px 40px;
+    transition: all ease 1s;
+}
+#page3-subcontain #page3-2>a:hover{
+    background-color: black;
+    color: rgb(255,227,10);
+    border: 1px solid rgb(255,227,10);
+}
+
+#page3-subcontain2{
+    margin-top: 270px;
+    position: relative;
+}
+
+#page3-subcontain2 #left{
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#page3-subcontain2 #img1{
+    height: 212px;
+    width: 440px;
+}
+
+#page3-subcontain2 #left>h3{
+    margin-bottom: 25px;
+    margin-top: 250px;
+    width: 395px;
+    font-size: 1.8rem;
+    line-height: 1.13;
+    letter-spacing: 0.0001em;
+    color: white;
+}
+
+#page3-subcontain2 #left>a{
+    margin-top: 10px;
+    text-align: center;
+    width: 160px;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+    background: rgb(255,227,10);
+    text-decoration: none;
+    font-family: yubo-regular;
+    border-radius: 50px;
+    padding: 20px 40px;
+    transition: all ease 1s;
+}
+#page3-subcontain2 #left>a:hover{
+    background-color: black;
+    color: rgb(255,227,10);
+    border: 1px solid rgb(255,227,10);
+}
+
+
+#page3-subcontain2 #girl{
+    width: 510px;
+    top: 0;
+    height: 806px;
+    position:absolute;
+    border-radius: 50px;
+    right: 228px;
+}
+
+#page3-subcontain2 #left>svg{
+    transform: scaleX(-1) scaleY(-1.4);
+    position: absolute;
+    z-index: 1;
+    font-family: yubo;
+    letter-spacing: .05em;
+    pointer-events: none;
+    font-size: 5em;
+    left: -1%;
+    top: 18%;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#page3 #page3-subcontain2 #top{
+    margin-top: 113px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 177px;
+}
+#page3 #page3-subcontain2 #top>h2{
+    color: rgb(255,227,10);
+    font-family: yubo;
+    font-size: 8.5rem;
+    line-height: 0.93;
+    padding-left: 0px;
+    width: 45rem;
+}
+#page3 #page3-subcontain2 #top>h2 #hand{
+    display: inline-block;
+}
+#page3 #page3-subcontain2 #top>h2 #hand>span>img{
+    display: inline-block;
+    height: 101px;
+    width: 86px;
+}
+
+#page3 #page3-subcontain2 #top>a{
+    padding: 55px 28px;
+    text-decoration: none;    
+}
+#page3 #page3-subcontain2 #top>a>button{
+    font-size: 18px;
+    font-family: yubo;
+    font-weight: 400;
+    color: black;
+    background-color:rgb(255,227,10) ;
+    border-radius: 50px;
+    transition: all ease 1.5s;
+    padding: 20px 40px;
+}
+#page3 #page3-subcontain2 #top>a>button:hover{
+    background-color: black;
+    color:rgb(255,227,10) ;
+    border: solid 1px rgb(255, 227, 10);
+}
+
+#page4{
+    background-color: rgb(21,20,0);
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+    height: 206%;
+    position: relative;
+    width: 100%;
+}
+#page4 #contain-left{
+    position: relative;
+    
+}
+
+#page4 #contain-left #elem1{
+    position: absolute;
+    background-image: url(https://images.prismic.io/yubo/42e1a41b-e054-4f52-a214-e3ea5e475aa4_Blog_Yubo+Horoscope.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    top: 271px;
+    left: 213px;
+    width: 24rem;
+    height: 33rem;
+    border-radius: 50px;
+
+}
+#overlay4-1{
+    position: absolute;
+    width: 24rem;
+    height: 33rem;
+    background-color: #00000066;
+    border-radius: 50px;
+
+}
+
+#page4 #contain-left #elem1>a:hover .overlay4{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#page4 #contain-left #elem1>a{
+    text-decoration: none;
+    width: 24rem;
+    height: 33rem;
+    display: block;
+    position: relative;
+}
+#page4 #contain-left #elem1>a #gen{
+    display: flex;
+    justify-content: end;
+}
+
+#page4 #contain-left #elem1>a #gen>h3{
+    margin: 10px 34px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    padding: 11px 16px;
+    font-size: 18px;
+    font-family: 'yubo';
+    background-color: rgb(142,107,255);
+    border-radius: 5px;
+}
+
+#page4 #contain-left #elem1>a>h2{
+    position: absolute;
+    bottom: 94px;
+    width: 24rem;
+    font-size: 55px;
+    font-family: yubo;
+    color: #fff;
+    text-align: center;
+}
+#page4 #contain-left #elem1>a #bottom-item1{
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    text-align: left;
+    padding-left: 15px;
+    width: 24rem;
+    font-size: 20px;
+    font-family: yubo-regular;
+}
+
+#page4 #contain-left #elem1>a #bottom-item1>span>img{
+    margin: 0px 10px;
+    height: 18px;
+    width: 18px;
+}
+
+
+#page4 #contain-right #elem2{
+    position: absolute;
+    background-image: url(https://images.prismic.io/yubo/4e7a5333-9e65-4a60-a2d1-7b9680e002f2_Blog_CommunityTipsAndTricks.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    top: -25px;
+    right: 283px;
+    width: 33rem;
+    height: 33rem;
+    border-radius: 50px;
+
+}
+#overlay4-2{
+    position: absolute;
+    width: 33rem;
+    height: 33rem;
+    background-color: #00000066;
+    border-radius: 50px;
+
+}
+
+#page4 #contain-right #elem2>a:hover #overlay4-2{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#page4 #contain-right #elem2>a{
+    text-decoration: none;
+    width: 24rem;
+    height: 33rem;
+    display: block;
+    position: relative;
+}
+#page4 #contain-right #elem2>a #gen{
+    display: flex;
+    justify-content: end;
+}
+
+#page4 #contain-right #elem2>a #gen>h3{
+    margin: 10px 247px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    padding: 11px 20px;
+    font-size: 18px;
+    font-family: 'yubo';
+    background-color: rgb(255,82,82);
+    border-radius: 5px;
+}
+
+#page4 #contain-right #elem2>a>h2{
+    position: absolute;
+    padding: 10px 28px;
+    bottom: 82px;
+    width: 34rem;
+    font-size: 52px;
+    font-family: yubo;
+    color: #fff;
+    text-align: left;
+}
+#page4 #contain-right #elem2>a #bottom-item1{
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    text-align: left;
+    padding-left: 15px;
+    width: 24rem;
+    font-size: 20px;
+    font-family: yubo-regular;
+}
+
+#page4 #contain-right #elem2>a #bottom-item1>span>img{
+    margin: 0px 10px;
+    height: 18px;
+    width: 18px;
+}
+#page4 #contain-right #elem3{
+    position: absolute;
+    background-image: url(https://images.prismic.io/yubo/f34dcf26-d146-4205-ab86-46e4daef0781_Blog_Community+Building+and+Making+Friends+on+Yubo.png?auto=compress,format);
+    background-size: cover;
+    background-position: center;
+    top: 565px;
+    right: 331px;
+    width: 27rem;
+    height: 33rem;
+    border-radius: 50px;
+
+}
+#overlay4-3{
+    position: absolute;
+    width: 27rem;
+    height: 33rem;
+    background-color: #00000066;
+    border-radius: 50px;
+
+}
+
+#page4 #contain-right #elem3>a{
+    text-decoration: none;
+    width: 24rem;
+    height: 33rem;
+    display: block;
+    position: relative;
+}
+
+#page4 #contain-right #elem3>a:hover .overlay4{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#page4 #contain-right #elem3>a #gen{
+    display: flex;
+    justify-content: end;
+}
+
+#page4 #contain-right #elem3>a #gen>h3{
+    margin: 10px 247px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    padding: 11px 20px;
+    font-size: 18px;
+    font-family: 'yubo';
+    background-color: rgb(255,82,82);
+    border-radius: 5px;
+}
+
+#page4 #contain-right #elem3>a>h2{
+    position: absolute;
+    padding: 10px 21px;
+    bottom: 82px;
+    width: 27rem;
+    font-size: 52px;
+    font-family: yubo;
+    color: #fff;
+    text-align: left;
+}
+#page4 #contain-right #elem3>a #bottom-item1{
+    position: absolute;
+    color: white;
+    bottom: 32px;
+    text-align: left;
+    padding-left: 15px;
+    width: 24rem;
+    font-size: 20px;
+    font-family: yubo-regular;
+}
+
+#page4 #contain-right #elem3>a #bottom-item1>span>img{
+    margin: 0px 10px;
+    height: 18px;
+    width: 18px;
+}
+
+#footer{
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-color: rgb(153,107,255);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#footer #foot-img{
+    position: absolute;
+    scale: 0.87;
+    left: 50%;
+    transform: translate(-50%, -84%);
+}
+
+#foot-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    padding-top: 164px;
+}
+
+.foot-items{
+    width: 250px;
+    height:370px;
+}
+
+.foot-items>h1{
+    font-family: yubo;
+    padding-bottom: 25px;
+}
+.foot-items>h2{
+    width: max-content;
+    font-family: yubo-regular;
+    font-weight: 400;
+    padding-bottom: 4px;    
+    cursor: pointer;
+    position: relative;
+
+}
+.foot-items>h2::after{
+    content: "";
+    position: absolute;
+    height: 1.5px;
+    width: 0;
+    background-color: black;
+    transition: all ease 0.5s;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+}
+ 
+
+.foot-items>h2:hover::after{
+    width:100%;
+}
+
+#foot-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+
+#foot-icon>img{
+    cursor: pointer;
+    height: 50px;
+    width:50px;
+}
+
+#foot-bottom{
+    margin-top: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#bottom-left>h1{
+    cursor: pointer;
+    font-size: 20px;    
+    font-family: yubo;
+    font-weight: 600;
+}
+
+#foot-bottom>h2{
+    font-size: 20px;
+    font-family: yubo-regular;
+    font-weight: 400;
+}
+
+#bottom-right{
+    font-weight: 600;
+    font-family: yubo;
+    font-size: 20px;
+    position: relative;
+}
+
+#bottom-right #lang{
+    visibility: hidden;
+    width: 120.84px;
+    height: 205.8px;
+    background-color: white;
+    position: absolute;
+    top: -211px;
+    right: -16px;    
+}
+#bottom-right #lang>ul{
+    padding: 7px 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+#bottom-right #lang>ul>li{
+    text-align: center;
+    font-family: yubo;
+    list-style: none;
+    cursor: pointer;
+} 
+
+#bottom-right #lang>ul>li:hover{
+    color: grey;
+}
+
+#bottom-right:hover #lang{
+    visibility:visible;
+}

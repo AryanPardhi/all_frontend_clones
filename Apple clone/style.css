@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav-bar1{
+    margin: 0 auto;
+    height: 50px;
+    background-color: #494949;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 250px;
+    padding-right: 250px;    
+}
+
+#nav-bar1 h1{
+    color: rgb(188, 188, 188);
+    font-weight: 300;
+    font-style: bold;
+    font-size: 15px;   
+}
+
+#nav-bar1 i{
+    color: rgb(188, 188, 188);
+}
+
+#nav-bar1 h1:hover{
+    color: white;
+}
+#nav-bar1 i:hover{
+    color: white;
+}
+
+#textdiv{
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#textdiv p{
+    position: relative;
+    top: 30%;
+
+}
+#textdiv p a{
+    text-decoration: none;
+}
+#textdiv p a:hover{
+    text-decoration: underline;
+}
+
+#front-1{
+    background-color: #837f7f;
+    height: 80%;
+    width: 100%;    
+}
+#front-1 a{
+text-decoration: none;
+}
+#parent-1{
+    background-image: url(https://www.apple.com/v/home/bb/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_medium.jpg);
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:absolute;
+}
+
+#front-1 h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 72px;
+}
+#front-1 h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5px;
+}
+#front-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#front-1 p a{
+    text-decoration: none;   
+    color: rgb(0, 123, 254); 
+}
+#front-1 p a:hover{
+    text-decoration: underline;
+}
+
+#front-2{
+    
+    background-color:black;
+    height: 100%;
+    width: 100%;
+}
+#front-2 a{
+    text-decoration: none;
+}
+
+#parent{
+    height: 80%;
+    width: 100%;
+    top: 90%;
+    margin-top: 41px;
+    padding-top: 28px;
+    position: absolute;
+    background-image: url(https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall.jpg);
+    background-position: center; 
+    background-size: contain;
+}
+#heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+#heading h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+#link{
+    padding-top: 10px;
+}
+#link a{
+    color: rgb(0, 123, 254);
+    text-decoration: none;
+}
+#link a:hover{
+    text-decoration: underline;
+}
+
+#front3{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    height: 80%;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    top: 176%;
+}
+
+#front3-1{
+    text-align: center;
+    height: 90%;
+    width: 50%;
+    margin: 10px 10px;
+    background-color: black;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#front3-1 i{
+    color: white;
+    padding: 10px;
+}
+#front3-1 h1{
+    padding-top: 70px;
+    color: white;
+}
+#front3-1 h2{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: red;
+}
+#front3-1 h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#front3-2{
+    text-align: center;
+    height: 90%;
+    width: 50%;
+    margin: 10px 10px;
+    background-color: black;
+    background-image: url(https://www.apple.com/v/home/bb/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#front3-2 h1{
+    padding-top: 70px;
+    color: white;
+}
+#front3-2 h2{
+    padding-top:2px;
+    font-weight: 500;
+    color: white;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.link-div{
+    padding-left: 7px;
+    padding-top: 5px;
+}
+.link-div a{
+    text-decoration: none;
+    color:rgb(0, 123, 254)
+
+}
+.link-div a:hover{
+    text-decoration: underline;
+}
